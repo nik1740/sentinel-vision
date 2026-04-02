@@ -7,6 +7,7 @@ import { AppLayout } from "@/components/AppLayout";
 import Index from "./pages/Index";
 import Dashboard from "./pages/Dashboard";
 import ComingSoon from "./pages/ComingSoon";
+import DNNAnalysisPage from "./pages/DNNAnalysisPage";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import NotFound from "./pages/NotFound";
@@ -26,7 +27,7 @@ const App = () => (
           <Route element={<AppLayout />}>
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/scan" element={<ComingSoon />} />
-            <Route path="/dnn" element={<ComingSoon />} />
+            <Route path="/dnn" element={<DNNAnalysisPage />} />
             <Route path="/neutralize" element={<ComingSoon />} />
             <Route path="/reports" element={<ComingSoon />} />
             <Route path="/admin" element={<ComingSoon />} />
